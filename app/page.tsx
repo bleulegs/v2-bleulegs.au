@@ -93,6 +93,7 @@ export default function Component() {
               {[
                 { name: "Our Team", href: "/team" },
                 { name: "Awards", href: "/awards" },
+                { name: "Innovation", href: "/innovation" },
                 { name: "Gallery", href: "/gallery" },
                 { name: "Contact", href: "/contact" },
               ].map((item) => (
@@ -185,13 +186,13 @@ export default function Component() {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Link href="/robot">
+            <Link href="/innovation">
               <Button
                 size="lg"
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-bold shadow-lg border-2 border-red-800"
               >
                 <Play className="w-5 h-5 mr-2" />
-                View LIVE Stream
+                View Innovation Project
               </Button>
             </Link>
             <Link href="/team">

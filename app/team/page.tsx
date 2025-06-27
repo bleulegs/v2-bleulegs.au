@@ -40,6 +40,14 @@ export default function TeamPage() {
       emoji: "👩‍💻",
     },
     {
+      name: "Bronwen Dickson",
+      role: "Teacher & Lead Supporter",
+      bio: "Miss Dickson helps lead us on our FLL journey!",
+      skills: ["very good japanese😎"],
+      color: "bg-purple-500",
+      emoji: "👩‍💻",
+    },
+    {
       name: "Rylan Gabriel",
       role: "Team Captain & Robot Game",
       bio: "Rylan leads our robotic game efforts and planning for the Robotics Game sector of First Lego League.",
@@ -100,6 +108,14 @@ export default function TeamPage() {
       role: "Robot Game",
       bio: "Xavier helps Linus and Charles on their robot runs, as well as designing some of his own.",
       skills: ["LEGO Spike Scratch", "Robot Run Creations"],
+      color: "bg-cyan-500",
+      emoji: "🕹️",
+    },
+    {
+      name: "Curtis Yeh",
+      role: "Everything (literally)",
+      bio: "Curtis is the best person ever he is full carrying the team.",
+      skills: ["LEGO Spike Scratch", "Robot Run Creations", "powerpoint", "video editing", "web development", "python", "solidworks", "fusion 360", "3D printing", "team leadership", "team planning", "team spirit", "nodejs", "express", "AI development", "being coool", "being funny", "being cool", "being funny", "being cool", "being funny"],
       color: "bg-cyan-500",
       emoji: "🕹️",
     },
@@ -173,9 +189,9 @@ export default function TeamPage() {
           >
             {[
               { icon: Users, number: "10", label: "Team Members", color: "bg-red-500", emoji: "👥" },
-              { icon: Star, number: "15+", label: "Combined Skills", color: "bg-blue-500", emoji: "⭐" },
-              { icon: Heart, number: "100%", label: "Team Spirit", color: "bg-green-500", emoji: "❤️" },
-              { icon: Zap, number: "∞", label: "LEGO Energy", color: "bg-yellow-500", emoji: "⚡" },
+              { icon: Star, number: "<0", label: "Combined Skills", color: "bg-blue-500", emoji: "⭐" },
+              { icon: Heart, number: "0%", label: "Team Spirit (im so funny🤣)", color: "bg-green-500", emoji: "❤️" },
+              { icon: Zap, number: "No", label: "LEGO SPIKE Energy", color: "bg-yellow-500", emoji: "💀" },
             ].map((stat, index) => (
               <motion.div key={index} variants={fadeInUp}>
                 <Card className="border-2 border-gray-200 hover:border-gray-400 hover:shadow-xl transition-all duration-300 bg-white text-center">
@@ -201,10 +217,10 @@ export default function TeamPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-black text-gray-800 mb-6">
-              Our <span className="text-red-600">Amazing</span> Team 🌟
+              Our <span className="text-red-600">Questionable</span> Team 🤔
             </h2>
             <p className="text-xl text-gray-600 font-medium max-w-3xl mx-auto">
-              10 unique individuals united by a shared passion for robotics and innovation!
+              10 little organisms united by a shared passion to burn spike prime :burning_spike:
             </p>
           </motion.div>
 
